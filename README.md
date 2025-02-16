@@ -2,6 +2,8 @@
 
 This project is a simple web scraping application built with [Streamlit](https://streamlit.io) that leverages the `crawl4ai` library to extract structured data from web pages using various large language models (LLMs). Users can dynamically configure the extraction process by selecting a model, entering an API key, defining a custom schema, and providing extraction instructions.
 
+https://github.com/user-attachments/assets/d80bc148-0fbe-4fed-8c44-3017b7f6942d
+
 ## Features
 
 - **Model Selection:** Choose from multiple LLM providers (e.g. `gpt-4o-mini`, `gpt-4o`, `ollama/llama2`, `ollama&llama3`).
@@ -42,3 +44,5 @@ This project is a simple web scraping application built with [Streamlit](https:/
     "name": "str",
     "price": "str"
 }
+
+   
