@@ -28,25 +28,17 @@ This project is a simple web scraping application built with [Streamlit](https:/
 - python -m venv venv
 - source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-3. **Install Dependencies:**
-
-- Ensure you have a requirements.txt file with at least the following:
-
-* streamlit
-* crawl4ai
-Then run:
+3. **Install Dependencies and Run:**
 
 - pip install -r requirements.txt
 - streamlit run app.py
   
 4. **Configuration**
-- API Key:
-If using a model that requires an API key (such as OpenAI's GPT models), either set the environment variable OPENAI_API_KEY or enter it in the sidebar when running the app.
+- API Key: If using a model that requires an API key (such as OpenAI's GPT models), either set the environment variable OPENAI_API_KEY or enter it in the sidebar when running the app.
 
-- Schema Definition:
-The sidebar allows you to define a JSON schema for extraction. The default is:
+- Schema Definition: The sidebar allows you to define a JSON schema for extraction. The default is:
 
-{
+* {
     "name": "str",
     "price": "str"
 }
