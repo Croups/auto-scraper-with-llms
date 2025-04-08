@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/d80bc148-0fbe-4fed-8c44-3017b7f6942d
 
 1. **Clone the Repository:**
 
-- git clone https://github.com/yourusername/web-scraper-llm.git
+- git clone https://github.com/Croups/web-scraper-llm.git
   
 2. **Create a Virtual Environment (Optional but Recommended)**:
 
